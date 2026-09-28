@@ -17,6 +17,7 @@ RUN apt-get update -q && apt-get install -qy --no-install-recommends \
     texlive-fonts-extra \
     texlive-publishers \
     texlive-science \
+    texlive-bibtex-extra \
     && rm -rf /var/lib/apt/lists/*
 
 # Install related packages
@@ -29,6 +30,8 @@ RUN apt-get update -q && apt-get install -qy \
     inkscape \
     latexdiff \
     poppler-utils \
+    lmodern \
+    biber \
     && rm -rf /var/lib/apt/lists/*
 
 # Install fonts
