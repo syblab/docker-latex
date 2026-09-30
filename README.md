@@ -1,6 +1,4 @@
 # docker-latex
-![OS](https://img.shields.io/badge/OS-Windows-blue)
-![GitHub release](https://img.shields.io/github/v/release/iHaruruki/docker-latex)
 
 ## 🛠️ Setup
 ### Install WSL
